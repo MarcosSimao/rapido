@@ -31,7 +31,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: "#/definitions/AtendimentoDTOAtomico"
+              $ref: "#/definitions/AtendimentoDTO"
         400:
           description: "Consulta inválida"
         401:
@@ -68,7 +68,7 @@ paths:
         500:
           description: "Erro interno"
 definitions:
-  AtendimentoDTOAtomico:
+  AtendimentoDTO:
     type: object
     properties:
       id:

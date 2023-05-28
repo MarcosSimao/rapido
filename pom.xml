@@ -81,6 +81,8 @@
 							</inputSpec>
 							<language>spring</language>
 							<library>spring-boot</library>
+							<modelPackage>com.api.orch.provider.model</modelPackage>
+							<apiPackage>com.api.orch.provider.api</apiPackage>
 							<supportingFilesToGenerate>
 								ApiUtil.java
 							</supportingFilesToGenerate>
@@ -104,6 +106,8 @@
 							</inputSpec>
 							<language>spring</language>
 							<library>spring-boot</library>
+							<modelPackage>com.api.orch.cliente.model</modelPackage>
+							<apiPackage>com.api.orch.cliente.api</apiPackage>
 							<supportingFilesToGenerate>
 								ApiUtil.java
 							</supportingFilesToGenerate>
@@ -127,6 +131,8 @@
 							</inputSpec>
 							<language>spring</language>
 							<library>spring-boot</library>
+							<modelPackage>com.api.orch.cliente.model</modelPackage>
+							<apiPackage>com.api.orch.cliente.api</apiPackage>
 							<supportingFilesToGenerate>
 								ApiUtil.java
 							</supportingFilesToGenerate>
@@ -150,6 +156,8 @@
 							</inputSpec>
 							<language>spring</language>
 							<library>spring-boot</library>
+							<modelPackage>com.api.orch.cliente.model</modelPackage>
+							<apiPackage>com.api.orch.cliente.api</apiPackage>
 							<supportingFilesToGenerate>
 								ApiUtil.java
 							</supportingFilesToGenerate>

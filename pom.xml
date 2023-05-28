@@ -68,6 +68,7 @@
 				<artifactId>swagger-codegen-maven-plugin</artifactId>
 				<version>2.4.9</version>
 				<executions>
+					<!-- especifico para orquestrador-->
 					<execution>
 						<id>gestao-orch-atendimento</id>
 						<phase>generate-resources</phase>
@@ -90,13 +91,7 @@
 							</configOptions>
 						</configuration>
 					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>io.swagger</groupId>
-				<artifactId>swagger-codegen-maven-plugin</artifactId>
-				<version>2.4.9</version>
-				<executions>
+					<!-- especifico para atomico atendimento-->
 					<execution>
 						<id>gestao-atomico-atendimento</id>
 						<phase>generate-resources</phase>
@@ -119,13 +114,7 @@
 							</configOptions>
 						</configuration>
 					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>io.swagger</groupId>
-				<artifactId>swagger-codegen-maven-plugin</artifactId>
-				<version>2.4.9</version>
-				<executions>
+					<!-- especifico para atomico vacina -->
 					<execution>
 						<id>gestao-atomico-vacina</id>
 						<phase>generate-resources</phase>
@@ -148,13 +137,7 @@
 							</configOptions>
 						</configuration>
 					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>io.swagger</groupId>
-				<artifactId>swagger-codegen-maven-plugin</artifactId>
-				<version>2.4.9</version>
-				<executions>
+					<!--especifico para atomico paciente-->
 					<execution>
 						<id>gestao-atomico-paciente</id>
 						<phase>generate-resources</phase>
@@ -181,5 +164,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
